@@ -1,0 +1,75 @@
+# 핵심 보안 파일
+dontshare.py
+.env
+.env.*
+
+# 주요 전략 파일들 (공개하면 안됨)
+CONFIG.py
+nice_funcs.py
+analyze_picks.py
+watch_txs.py
+bot.py
+main.py
+filter_data.py
+create_copy_csv.py
+track_top_traders.py
+top_gainers.py
+cut_following_addr.py
+sol_refunds*.py
+moralisss.py
+
+# 데이터 및 결과 (절대 공개 금지)
+data/
+csvs/
+*.csv
+*.txt
+*.json
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.temp
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# 백업
+*.bak
+*.backup
+*.old
+
+# 테스트
+test/
+tests/
+*test*
+
+# 기타 민감한 파일
+secrets/
+private/
+config/
