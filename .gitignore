@@ -15,7 +15,7 @@ create_copy_csv.py
 track_top_traders.py
 top_gainers.py
 cut_following_addr.py
-sol_refunds*.py
+sol_refund.py
 moralisss.py
 
 # 데이터 및 결과 (절대 공개 금지)
